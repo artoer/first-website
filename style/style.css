@@ -1,0 +1,289 @@
+/*Algemene opmaak*/
+body {
+
+    text-align: center;
+    font-family: sans-serif;
+    background-color: lightyellow;
+    margin: 0 auto;
+
+}
+
+/*Opmaak header*/
+header {
+
+    background-image: linear-gradient(lightskyblue, sandybrown);
+    padding: .2em 0 .2em 0;
+    margin-bottom: 3%;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+
+}
+
+/*Opmaak footer*/
+footer {
+
+    background-color: sandybrown;
+    padding: 3% 0 7% 0;
+    margin-top: 3%;
+    border-top: 3px solid black;
+    color: black;
+
+}
+
+
+/*Koppen*/
+h1 {
+
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 36pt;
+
+}
+
+h2 {
+
+    margin: 0 0 .8em 0;
+    font-size: 24pt;
+
+
+}
+
+h3 {
+
+    margin: .8em 0 .5em 0;
+    font-size: 18pt;
+
+
+}
+
+/*Navigatie*/
+nav a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li {
+
+    width: 11%;
+    margin: 0 3px;
+    padding: 6px;
+    list-style-type: none;
+    display: inline-block;
+    background-color: orange;
+    border-radius: 3px;
+    border: 2px solid black;
+    list-style-position: outside;
+
+}
+
+nav ul li:hover {
+
+    background-color: white;
+
+}
+
+nav a:visited {
+
+    color: black;
+
+}
+
+.active {
+
+    background-color: navajowhite;
+    border: 2px solid white;
+
+}
+
+/*Opmaak van de main tekst*/
+main p {
+
+    color: black;
+    font-size: 1.1em;
+
+    /*Lijnt alle tekst uit in het midden van het scherm*/
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+/*Kaart op de homepagina*/
+#kaart {
+
+    margin: 0 auto;
+    height: auto;
+    width: 500px;
+
+}
+
+/*Kader rondom de kaart */
+#kaartbox {
+
+    background-color: rgba(140, 109, 78, .15);
+    width: 500px;
+    padding: 25px;
+
+    /* Element blijft centraal */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#kaartbox figcaption {
+    
+padding: .5em 0 0 0;
+    
+}
+
+/*Extra witregel tussen tekst en bron*/
+#bron_geschiedenis {
+
+    margin-top: 2.2em;
+
+}
+
+/*Foto op Geschiedenis-pagina*/
+#witte_kerk {
+
+    width: 150px;
+    height: auto;
+    margin: 5px;
+
+}
+
+#witte_kerk_box {
+
+    float: right;
+    max-width: 160px;
+    padding: 10px;
+    margin: 0 25% 1em 1em;
+    background-color: rgba(140, 109, 78, .15);
+
+}
+
+/*Centreert figcaption*/
+#witte_kerk_box figcaption {
+
+margin: 0 auto;
+
+}
+
+/*Table op Toekomst-pagina*/
+
+/*Samenvallen van de cellen*/
+table {
+
+    border-collapse: collapse;
+    font-size: 1.1em;
+
+}
+
+
+/*Kapitalisering en onderscheidende achtergrondkleur*/
+th {
+
+    text-transform: uppercase;
+    background-color: rgba(140, 109, 78, .5);
+
+}
+
+/*Ruimte tussen de data*/
+th,
+td {
+
+    padding: .4em .4em .5em .5em;
+
+}
+
+/*Verdelende lijn tussen uitslagen partijen*/
+td:not(:first-of-type) {
+
+    border-bottom: 2px solid rgba(140, 109, 78, .15);
+
+}
+
+/*Onderscheidende achtergrondkleur voor partijen*/
+tr td:first-of-type {
+
+    background-color: rgba(140, 109, 78, .15);
+}
+
+/*Centreren en kadering van het hele figuur*/
+#uitslagen {
+
+    display: table;
+    margin: 0 auto 2em auto;
+    border: 2px solid black;
+
+}
+
+/*Kadering en padding figcaption*/
+#uitslagen figcaption {
+
+    border-top: 2px solid black;
+    padding: .5em;
+
+}
+
+/*Dubbele lijnen boven totaalresultaat    */
+#total {
+
+
+    border-top: 3px double black;
+
+}
+
+
+/*Bijzonderheden-pagina*/
+
+/*Onderscheinde achtergrondkleur per section*/
+section {
+
+    background-color: rgba(140, 109, 78, .15);
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 1em 1em 1em 1em;
+    margin: 0 25% 1% 25%;
+    border-radius: 20px;
+
+}
+
+section:first-of-type {
+
+    margin-top: 2%;
+
+}
+
+section img {
+
+    float: left;
+    width: 150px;
+    margin-right: 1em;
+    border-radius: 5%;
+
+
+}
+
+section h3 {
+
+    margin: 0 auto .5em auto;
+
+}
+
+
+section p {
+
+    margin: 0 auto;
+
+}
+
+/*Centreren ipv justify voor beter geheel met de sections*/
+#p_uitgelicht {
+
+    text-align: center;
+
+}
